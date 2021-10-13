@@ -7,8 +7,8 @@ import { query } from '../../../lib/db';
 export default async function handler(req, res) {
     if (req.method === 'GET') {
         try {
-            const products = await query('SELECT * FROM products;');
-            res.status(200).json({ products });
+            const categories= await query('SELECT * FROM categories;');
+            res.status(200).json({ categories });
         } catch (error) {
             res.status(400).json({ message: error.message });
         }
