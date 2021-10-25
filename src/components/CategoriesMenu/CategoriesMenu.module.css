@@ -21,7 +21,7 @@
 
 .category {
     padding: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .category:first-child {
@@ -35,5 +35,5 @@
 
 .category:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(225, 21, 42, 0.1);
 }
